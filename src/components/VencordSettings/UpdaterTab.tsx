@@ -137,7 +137,7 @@ function Updatable(props: CommonProps) {
                                 Alerts.show({
                                     title: "Update Success!",
                                     body: "Successfully updated. Restart now to apply the changes?",
-                                    confirmText: "Restart",
+                                    confirmText: "Restart now!",
                                     cancelText: "Not now!",
                                     onConfirm() {
                                         relaunch();
